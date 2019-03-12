@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/Bookings"
+            android:icon="@drawable/histor"
+            android:title="Bookings" />
+        <item
+            android:id="@+id/Payment"
+            android:icon="@drawable/grey"
+            android:title="Payment History" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/help"
+            android:title="Help" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+    </group>
+
+    <item android:title="More Options">
+        <menu>
+            <item
+                android:id="@+id/changep"
+                android:icon="@android:drawable/ic_lock_lock"
+                android:title="Change Password" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/door"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
